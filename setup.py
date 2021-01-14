@@ -24,8 +24,8 @@ from run import Run
 
 class Setup:
 	def __init__(self):
-		self.username = 'frank20bc0046sjc@gmail.com'
-		self.password = 'huzxdcsgsgqwzvcc'
+		self.username = ''
+		self.password = ''
 		self.maildatafile = 'mail_data.json'
 		self.databasefile = 'database.json'
 		self.idbasefile = 'id_data.json'
