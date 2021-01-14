@@ -73,10 +73,6 @@ class Gmail:
 		with open('id_data.json', 'w') as idfile:
 			json.dump(self.iddata, idfile)
 
-if __name__ == '__main__':
-	username = 'frank20bc0046sjc@gmail.com'
-	password = 'huzxdcsgsgqwzvcc'
-	mail = Gmail(username, password)
-	mail()
+
 
 
